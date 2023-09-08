@@ -90,7 +90,7 @@ header h3{
 .item{
     background-color: #DDE0E3;
     border-radius: 15px; 
-    margin: 30px 60px;   
+    margin: 10px;   
     text-align: center;
     padding: 10px;
 }
@@ -171,6 +171,10 @@ footer{
 }
 
 /* Cardápio */
+.card-center{
+    justify-content: center;
+    display: flex;
+}
 
 
 
