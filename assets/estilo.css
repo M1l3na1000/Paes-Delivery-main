@@ -27,15 +27,13 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 66px; 
-    background-color: #fff;
-    margin-left: 450px;
+    background-color: #fff;  
     margin-top: 20px;
 }
 
 nav a{
     color: #333;
-    padding: 10px;
-    margin-left: 50px;
+    padding: 10px; 
 }
 
 nav a:hover{
@@ -170,7 +168,12 @@ footer{
 }
 
 /* Cardápio */
-.cardapio{
+.cardapio div h2{
+    text-align: center;
+    margin: 30px auto;
+}
+.titulo-tipo{
+    text-align: center;
     margin: 0 auto;
 }
 
