@@ -28,10 +28,11 @@ nav {
     align-items: center;
     gap: 66px; 
     background-color: #fff;  
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 nav a{
+    text-align: center;
     color: #333;
     padding: 10px; 
 }
@@ -90,7 +91,7 @@ header h3{
 .item{
     background-color: #DDE0E3;
     border-radius: 15px; 
-    margin: 10px;   
+    margin: 20px;   
     text-align: center;
     padding: 10px;
 }
@@ -121,6 +122,7 @@ header h3{
     cursor: pointer;
 }
 
+
 /* INFORMAÇÕES */
 
 #inf-padaria{
@@ -140,6 +142,8 @@ header h3{
 .inf-video{
     margin: 30px 200px 30px 30px;
 }
+
+
 
 /* Rodapé */
 
@@ -170,13 +174,11 @@ footer{
     padding: 20px;
 }
 
-/* Cardápio */
+/*  página Cardápio */
 .card-center{
     justify-content: center;
     display: flex;
 }
-
-
 
 
 /* Ajuda */
@@ -404,3 +406,65 @@ footer{
     }
 }
 
+
+/* Contato */
+#contato{
+    margin-top: 50px auto;
+}
+
+#contato ul{
+    list-style: none;
+}
+
+#contato ul li{
+    background-color: #131313;
+    padding: 10px;
+    width: 150px;
+}
+
+#contato ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#contato ul li:nth-child(1){
+    background-color: #00e91f;
+    transition: width 500ms;
+}
+#contato ul li:nth-child(2){
+    background-color: #2700e9;
+    transition: width 500ms;
+}
+#contato ul li:nth-child(3){
+    background-color: #e9009b;
+    transition: width 500ms;
+}
+#contato nav ul li:nth-child(4){
+    background-color: #696c6a;
+    transition: width 500ms;
+}
+#contato nav ul li:nth-child(5){
+    background-color: #00cee9;
+    transition: width 500ms;
+}
+
+#contato nav ul li:nth-child(1):hover{
+    background-color: #00e91f;
+    width: 200px;
+}
+#contato nav ul li:nth-child(2):hover{
+    background-color: #2700e9;
+    width: 200px;
+}
+#contato nav ul li:nth-child(3):hover{
+    background-color: #e9009b;
+    width: 200px;
+}
+#contato nav ul li:nth-child(4):hover{
+    background-color: #696c6a;
+    width: 200px;
+}
+#contato nav ul li:nth-child(5):hover{
+    background-color: #00cee9;
+    width: 200px;
+}
