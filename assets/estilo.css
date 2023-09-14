@@ -16,6 +16,7 @@
     --tombranco: #DDE0E3;
     --tombranco2: #F4F5F6;
     --azul: #6c63ff;
+    --cinza1: #e7e6e6;
     --cinza2: #eeeeee75;
 }
 
@@ -94,6 +95,70 @@ header h3{
     padding-right: 50px;
 }
 
+#contato-header{
+    
+    position: absolute;
+    margin: 20px 0px 20px 200px;
+}
+#contato-header nav{
+    margin: 0;
+
+}
+
+#contato-header nav ul{
+    background-image: url(/assets/imagens/nav.jpg);
+    list-style: none;
+    margin-bottom: 0;
+}
+
+#contato-header ul li{
+    background-color: var(--preto);
+    padding: 0.6em;
+    width: 9em;
+}
+
+#contato-header ul li a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+#contato-header ul li:nth-child(1){
+    background-color: #09da24;
+    transition: width 500ms;
+}
+#contato-header ul li:nth-child(2){
+    background-color: #270da4;
+    transition: width 500ms;
+}
+#contato-header ul li:nth-child(3){
+    background-color: #e5ec09;
+    transition: width 500ms;
+}
+#contato-header nav ul li:nth-child(4){
+    background-color: #f78419;
+    transition: width 500ms;
+}
+
+
+
+#contato-header nav ul li:nth-child(1):hover{
+    background-color: #09da24;
+    width: 12.5em;
+}
+#contato-header nav ul li:nth-child(2):hover{
+    background-color: #270da4;
+    width: 12.5em;
+}
+#contato-header nav ul li:nth-child(3):hover{
+    background-color: #e5ec09;
+    width: 12.5em;
+}
+#contato-header nav ul li:nth-child(4):hover{
+    background-color: #f78419;
+    width: 12.5em;
+}
+
+
 /* CARDÁPIO */
 
 .h2-titulo{
@@ -124,6 +189,9 @@ header h3{
 .item-texto{
 
     padding: 10px;
+}
+.item:hover{
+    background-color: var(--cinza2);
 }
 
 .item-a{
@@ -429,17 +497,54 @@ footer{
     }
 }
 
+/* Carrinho */
+#carrinho{
+    background-color: var(--cinza2);
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 10px;
+    border-color: var(--cinza);
+    width: 800px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {background-color: var(--cinza1);}
+
+#resumo{
+    background-color: var(--cinza2);
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--cinza-escuro);
+}
+
 
 /* Contato */
 #contato{
-    margin-top: 3.125em auto;
+    margin-top: 3.125em;
+    margin-left: 30em;
+    
+}
+#contato nav{
+    margin: 0;
 }
 
-#contato ul{
+#contato nav ul{
     list-style: none;
+    
 }
 
-#contato ul li{
+#contato nav ul li{
     background-color: var(--preto);
     padding: 0.625em;
     width: 9.375em;
@@ -466,10 +571,7 @@ footer{
     background-color: #696c6a;
     transition: width 500ms;
 }
-#contato nav ul li:nth-child(5){
-    background-color: #00cee9;
-    transition: width 500ms;
-}
+
 
 #contato nav ul li:nth-child(1):hover{
     background-color: #00e91f;
@@ -487,7 +589,42 @@ footer{
     background-color: #696c6a;
     width: 12.5em;
 }
-#contato nav ul li:nth-child(5):hover{
-    background-color: #00cee9;
-    width: 12.5em;
+
+#mensagem-contato{
+   margin-left: 7em; 
+   background-color: var(--cinza1);
+   padding: 10px;
+   margin: 0.6rem 3rem;
+   padding: 0.8rem 1.2rem;
+   border: none;
+   border-radius: 10px;
+   box-shadow: 1px 1px 6px var(--preto);
+   font-size: 1rem;
+}
+.input-contato{
+    text-align: center;
+    background-color: var(--branco);
+    color: var(--preto);
+    padding: 5px;
+    margin: 0.6rem 3rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px var(--preto);
+    font-size: 1rem;
+}
+.botao{
+    background-color: var(--cinza);
+    color: var(--branco);
+    padding: 5px;
+    border-radius: 5px;
+}
+.botao:hover{
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
+
+#encontre{
+    text-align: center;
+    padding: 15px;
 }
