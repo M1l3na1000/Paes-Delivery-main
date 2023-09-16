@@ -627,3 +627,29 @@ tr:nth-child(even) {background-color: var(--cinza1);}
     text-align: center;
     padding: 15px;
 }
+
+/* produto */
+.link-voltar{
+    background-color: #a7f0f1;
+    padding-right: 100%;   
+    font-size: 20px;
+    font-weight: bold;
+}
+.link-voltar a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: var(--preto);
+
+}
+.link-voltar a:visited{
+    color: var(--preto);
+}
+.link-voltar:hover{
+    background-color: #43b9bb;
+}
+.link-voltar a:hover{
+    color: var(--branco);
+}
+.link-voltar a:active{
+    color: var(--creme);
+}
