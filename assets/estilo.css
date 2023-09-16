@@ -64,7 +64,7 @@ nav a:active{
 /* Header */
 
 header{
-    background-image: url(assets/imagens/nav.jpg);
+    background-image: url(../imagens/nav.jpg);
     background-size: 1500px;
     height:1000px;
 }
@@ -238,7 +238,7 @@ header h3{
 /* Rodapé */
 
 footer{
-    background-image: url(../assets/imagens/footer-pexel.jpg);
+    background-image: url(../imagens/footer-pexel.jpg);
     background-size: 1500px;
     height: 800px;
 }
