@@ -106,7 +106,6 @@ header h3{
 }
 
 #contato-header nav ul{
-    background-image: url(/assets/imagens/nav.jpg);
     list-style: none;
     margin-bottom: 0;
 }
@@ -124,38 +123,38 @@ header h3{
 
 #contato-header ul li:nth-child(1){
     background-color: #09da24;
-    transition: width 500ms;
+    transition: padding-bottom 500ms;
 }
 #contato-header ul li:nth-child(2){
     background-color: #270da4;
-    transition: width 500ms;
+    transition: padding-bottom 500ms;
 }
 #contato-header ul li:nth-child(3){
     background-color: #e5ec09;
-    transition: width 500ms;
+    transition: padding-bottom 500ms;
 }
 #contato-header nav ul li:nth-child(4){
     background-color: #f78419;
-    transition: width 500ms;
+    transition: padding-bottom 500ms;
 }
 
 
 
 #contato-header nav ul li:nth-child(1):hover{
     background-color: #09da24;
-    width: 12.5em;
+    padding-bottom: 12.5em;
 }
 #contato-header nav ul li:nth-child(2):hover{
     background-color: #270da4;
-    width: 12.5em;
+    padding-bottom: 12.5em;
 }
 #contato-header nav ul li:nth-child(3):hover{
     background-color: #e5ec09;
-    width: 12.5em;
+    padding-bottom: 12.5em;
 }
 #contato-header nav ul li:nth-child(4):hover{
     background-color: #f78419;
-    width: 12.5em;
+    padding-bottom: 12.5em;
 }
 
 
@@ -557,37 +556,37 @@ tr:nth-child(even) {background-color: var(--cinza1);}
 
 #contato ul li:nth-child(1){
     background-color: #00e91f;
-    transition: width 500ms;
+    transition: padding-bottom 500ms;
 }
 #contato ul li:nth-child(2){
     background-color: #2700e9;
-    transition: width 500ms;
+    transition: padding-bottom 500ms;
 }
 #contato ul li:nth-child(3){
     background-color: #e9009b;
-    transition: width 500ms;
+    transition: padding-bottom 500ms;
 }
 #contato nav ul li:nth-child(4){
     background-color: #696c6a;
-    transition: width 500ms;
+    transition: padding-bottom 500ms;
 }
 
 
 #contato nav ul li:nth-child(1):hover{
     background-color: #00e91f;
-    width: 12.5em;
+    padding-bottom: 12.5em;
 }
 #contato nav ul li:nth-child(2):hover{
     background-color: #2700e9;
-    width: 12.5em;
+    padding-bottom: 12.5em;
 }
 #contato nav ul li:nth-child(3):hover{
     background-color: #e9009b;
-    width: 12.5em;
+    padding-bottom: 12.5em;
 }
 #contato nav ul li:nth-child(4):hover{
     background-color: #696c6a;
-    width: 12.5em;
+    padding-bottom: 12.5em;
 }
 
 #mensagem-contato{
