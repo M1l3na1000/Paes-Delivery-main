@@ -65,7 +65,7 @@ nav a:active{
 
 header{
     background-image: url(../assets/imagens/nav.jpg);
-    background-size: 1500px;
+    background-size: 1600px;
     height:1000px;
 }
 
@@ -530,6 +530,7 @@ tr:nth-child(even) {background-color: var(--cinza1);}
 
 /* Contato */
 #contato{
+    text-align: center;
     margin-top: 3.125em;
     margin-left: 30em;
     
@@ -691,3 +692,5 @@ tr:nth-child(even) {background-color: var(--cinza1);}
     text-align: center;
     margin: 10px auto;
 }
+
+/* Resposividade */
