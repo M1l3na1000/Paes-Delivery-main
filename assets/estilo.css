@@ -630,7 +630,7 @@ tr:nth-child(even) {background-color: var(--cinza1);}
 
 /* produto */
 .link-voltar{
-    background-color: #a7f0f1;
+    background-image: linear-gradient(to right, #a7f0f1 , #43b9bb);
     padding-right: 100%;   
     font-size: 20px;
     font-weight: bold;
@@ -645,11 +645,49 @@ tr:nth-child(even) {background-color: var(--cinza1);}
     color: var(--preto);
 }
 .link-voltar:hover{
-    background-color: #43b9bb;
+    background-color: #478b8d;
 }
 .link-voltar a:hover{
     color: var(--branco);
 }
 .link-voltar a:active{
     color: var(--creme);
+}
+.imagem-produto{
+    margin: 10px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #43b9bb;
+}
+#escolha{
+    background-color: #43b9bb;
+    padding: 10px;
+    color: var(--branco);
+}
+.preco{
+    font-size: 50px;
+    font-weight: bold;
+}
+.adicionar{
+    background-color: #6c63ff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
+.adicionar:hover{
+    background-color: #2b24ab;
+}
+.comprar{
+    background-color: #fde3a7d7;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.comprar:hover{
+    background-color: #e9a609d7;
+}
+.tabela-titulo{
+    font-weight: bold;
+    text-align: center;
+    margin: 10px auto;
 }
