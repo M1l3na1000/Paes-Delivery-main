@@ -248,6 +248,7 @@ footer{
     margin-top: 200px;
     font-size: 16px;
     border-radius: 10px;
+    position: relative;
 }
 
 #fim{
