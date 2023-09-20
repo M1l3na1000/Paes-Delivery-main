@@ -90,10 +90,9 @@ header h3{
     padding-right: 50px;
 }
 
-#contato-header{
+#contato-header{    
+    position: relative;
     
-    position: absolute;
-    margin: 20px 0px 20px 200px;
 }
 #contato-header nav{
     margin: 0;
