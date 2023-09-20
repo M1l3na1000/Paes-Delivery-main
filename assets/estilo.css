@@ -28,29 +28,26 @@ body {
 
 /* menu 1 */
 
-nav{
-    background-color: var(--branco);  
-}
-nav.navbar-transparente {
-	padding: 15px 0px;
-	background: rgba(0,0,0,0.6);
+navbar{
+    background-color: var(--branco);
+    padding: 15px 0px;
 }
 
-.navbar-light .navbar-nav .nav-link:link{
+.navbar-nav .nav-link:link{
     color: var(--cinza-escuro);
     padding: 10px; 
 }
-.navbar-light .navbar-nav .nav-link: visited {
+.navbar-nav .nav-link: visited {
 	color: #333;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-nav .nav-link:hover {
 	color: var(--cinza);
     text-shadow:0px 0px 5px var(--cinza);
     text-decoration: none;
     cursor: pointer;
 }
-.navbar-light .navbar-nav .nav-link:active {
+.navbar-nav .nav-link:active {
 	 color: var(--branco);
     text-shadow:0px 0px 5px var(--branco); 
 }
