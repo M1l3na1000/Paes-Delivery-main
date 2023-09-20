@@ -57,8 +57,9 @@ navbar{
 
 header{
     background-image: url(../assets/imagens/nav.jpg);
-    background-size: 1600px;
-    height:1000px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size: cover;
 }
 
 header h3{
