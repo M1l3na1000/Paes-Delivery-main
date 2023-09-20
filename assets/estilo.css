@@ -23,41 +23,40 @@
 body {
     background-color: var(--branco);
     font-family: 'Open Sans', sans-serif;
-    width: 1455px;
-
 }
 
 /* menu 1 */
 
 nav {
-    width: fit-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 66px; 
+    height: 70px;
     background-color: var(--branco);  
-    margin: 20px auto;
-}
-
-nav a:link{
     text-align: center;
-    color: var(--cinza-escuro);
-    padding: 10px; 
+    margin: 20px 460px auto;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
 }
 
-nav a:visited{
+nav ul li a:link{
+    display: block;
+    color: var(--cinza-escuro);
+    padding: 30px; 
+}
+
+nav ul li a:visited{
     color: #333;
 }
 
 
-nav a:hover{
+nav ul li a:hover{
     color: var(--cinza);
     text-shadow:0px 0px 5px var(--cinza);
     text-decoration: none;
     cursor: pointer;
 }
-nav a:active{
+nav ul li a:active{
     color: var(--branco);
     text-shadow:0px 0px 5px var(--branco); 
 }
